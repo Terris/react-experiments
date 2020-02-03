@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { ROUTES } from '../constants';
+import React from "react";
+import { Link } from "react-router-dom";
+import { ROUTES } from "../constants";
 
 export const Header = () => (
   <header className="header">
@@ -9,6 +9,7 @@ export const Header = () => (
     <nav className="nav-primary">
       <Link to={ROUTES.HOME}>Home</Link>
       <Link to={ROUTES.ABOUT}>About</Link>
+      <Link to={ROUTES.TYPED_TEXT}>Animation: Typed TExt</Link>
     </nav>
   </header>
-)
+);

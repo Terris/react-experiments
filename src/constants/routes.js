@@ -1,4 +1,5 @@
 export const ROUTES = {
   HOME: "/",
-  ABOUT: '/about',
-}
+  ABOUT: "/about",
+  TYPED_TEXT: "/typed-text"
+};
